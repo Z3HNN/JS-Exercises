@@ -5,4 +5,9 @@ console.log(isEqualTo100(0,100))
 const getFileExtension = (str) => str.slice
 (str.lastIndexOf('.'))
 console.log(getFileExtension('index.html'))
-c
+
+
+const moveCharsFoward = (str) => 
+str
+.split('')
+.map(char => String.fromCharCode(char.charCodeAt(0) + 1)).join('')
