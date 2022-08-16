@@ -11,3 +11,13 @@ const moveCharsFoward = (str) =>
 str
 .split('')
 .map(char => String.fromCharCode(char.charCodeAt(0) + 1)).join('')
+
+
+const formatDate = (date = new Date()) => {
+    const days = date.getDay()
+    const months = date.getMonth()
+    const years = date.getFullYear()
+    return `${days}/${months}/${years}`
+}
+
+console.log(formatDate())
