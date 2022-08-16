@@ -21,3 +21,7 @@ const formatDate = (date = new Date()) => {
 }
 
 console.log(formatDate())
+
+
+const addNew = (str) => `New! ${str}`
+console.log(addNew('Offers'))
