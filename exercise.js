@@ -24,5 +24,5 @@ console.log(formatDate())
 
 
 const addNew = (str) =>
-str.indexOf('New!') === 0 ? str : `New! ${str}`
+str.indexOf('New!') === 0 ? str : `NeW! ${str}`
 console.log(addNew('New! Offers'))
